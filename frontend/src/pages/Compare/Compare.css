@@ -1,0 +1,90 @@
+.compare-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 110vh;
+}
+.compare-page h2 {
+  color: white;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.input-container form {
+  padding: 8px;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+.input-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input-container button {
+  border: none;
+  background: #7927ff;
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.merge-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 20px;
+}
+
+.coin-chart {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 250px;
+  /* margin: auto; */
+
+}
+
+.dynamic-display {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.compare-msg{
+  text-align: center;
+  margin: 15px 0px;
+}

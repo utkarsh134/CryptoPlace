@@ -1,0 +1,61 @@
+.input-container form {
+  padding: 8px;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+.input-container input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.add-coin-btn button {
+  border: none;
+  background: #7927ff;
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-coin-btn:hover{
+  background: #6301ff;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.merge-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 20px;
+}
+.merge-button:hover{
+    background-color: #006de1;
+}
+
