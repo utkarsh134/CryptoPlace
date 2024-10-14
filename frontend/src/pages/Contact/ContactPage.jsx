@@ -21,8 +21,8 @@ const ContactPage = () => {
     const message = `Organization: ${formData.organization}\nDescription: ${formData.description}`;
 
     // Replace with your actual Telegram Bot token and chat ID
-    const botToken = "6915741622:AAF2xi0j7i-ZcH1JAMDlz_zBzR9U8yoc4SM";
-    const chatId = "1450923460";
+    const botToken = `${process.env.BOT_TOKEN}`;
+    const chatId = `${process.env.CHAT_ID}`;
     const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
       message
     )}`;
